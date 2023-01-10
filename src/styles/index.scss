@@ -1,0 +1,23 @@
+@import "./_normalize.css";
+@import 'leaflet/dist/leaflet.css';
+
+main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+map {
+  gap: 10px;
+  width: 256px;
+  height: 256px;
+  border-radius: 20px;
+}
+
+.leaflet-container {
+  border-radius: 20px;
+  height: 400px;
+  width: 400px;
+}
